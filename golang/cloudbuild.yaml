@@ -1,5 +1,5 @@
 steps:
   - id: "Teste unitário"
     name: 'gcr.io/cloud-builders/go'
-    args: ['test','./src/greeting']
+    args: ['test','greeting']
     env: ['PROJECT_ROOT=fullcycle-7-desafio-utilizando-k8s', 'GOPATH=./golang']
